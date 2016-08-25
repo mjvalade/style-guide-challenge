@@ -1,0 +1,172 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #B3C0CF;
+  widows: 90vw;
+}
+header {
+  display: inline-block;
+  text-align: center;
+  background: #2C5E2E;
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+header h1 {
+  display: inline-block;
+  font-size: 125%;
+  font-weight: 100;
+  width: 40vw;
+  color: white;
+  margin-top: 20px;
+}
+
+header img {
+  display: inline-block;
+  float: right;
+  margin-top: 20px;
+  margin-right: 10px;
+  height: 25px;
+  width: 25px;
+}
+
+h2 {
+  margin-top: 15vh;
+  font-size: 125%;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+/* media queries */
+@media screen and (max-width: 543px) {
+  header h1 {
+    width: 80vw;
+  }
+}
+
+
+@media screen and (max-width: 360px) {
+  header {
+    height: 15vh;
+  }
+
+  header h1 {
+    width: 70vw;
+  }
+
+  h2 {
+    margin-top: 20vh;
+  }
+}
+
+/*Week 1 Entry*/
+
+.week-one {
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+}
+.header-week-one {
+  margin-left: 4vw;
+}
+
+.date {
+  margin-bottom: 20px;
+  text-align: center;
+  border-bottom: 2px solid white;
+  width: 15vw;
+  color: white;
+  font-size: 1em;
+  padding-top: 40px;
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/*Week 1 Content*/
+
+/* Fixed header line */
+.one-container {
+  display: flex;
+  background: #0C273D;
+  height: 75px;
+  width: 100%;
+  position: fixed;
+  top: 45vh;
+}
+
+.one-container h1 {
+  display: flex;
+  float: left;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 11px;
+  margin-bottom: 11px;
+  font-size: 200%;
+  color: white;
+}
+
+/* Header icon */
+.logo {
+  /*float: left;*/
+  display: flex;
+  height: 90px;
+  width: 100px;
+  background-color: #54D0ED;
+  margin-left: 20px;
+  position: fixed;
+  top: 45vh;
+}
+
+/* Header nav links */
+.one-nav {
+  display: flex;
+  /*float: right;*/
+  margin-left: auto;
+}
+
+.one-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.one-nav {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.one-nav li {
+  display: inline-block;
+  padding: 30px 5px;
+  color: white;
+}
+
+.button-sign-up {
+  background: #54D0ED;
+  border-radius: 4px;
+  margin-bottom: 3px;
+}
+
+
+/* media queries */
+@media screen and (max-width: 360px) {
+  .header-week-one {
+    text-align: center;
+  }
+
+  .one-container {
+    height: 40vh;
+  }
+
+  .one-nav ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vw;
+    text-align: center;
+  }
+}
