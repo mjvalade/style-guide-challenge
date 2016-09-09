@@ -1,0 +1,81 @@
+
+/*Week 2 Entry*/
+.week-two {
+  height: 70vh;
+  width: 100%;
+  margin: auto;
+}
+
+.header-week-two {
+  margin-left: 4vw;
+  margin-bottom: 2em;
+}
+
+.date-two {
+  margin-bottom: 20px;
+  text-align: center;
+  border-bottom: 2px solid $color-main-light;
+  width: 15vw;
+  color: $color-main-light;
+  font-size: 1em;
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/*Week 2 Content*/
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid $highlight-color-two;
+  background-color: $color-main-light;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  height: 300px;
+  width: 350px;
+  margin-bottom: 20px;
+}
+
+.card-image {
+    height: 170px;
+    overflow: hidden;
+}
+
+img {
+      opacity: 1;
+      width: 100%;
+}
+
+.card-title {
+    line-height: 1.5em;
+    font-size: 125%;
+    text-align: left;
+    padding-left: 5px;
+    margin-top: 5px;
+  }
+
+.card-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.card-link:hover {
+  color: blue;
+}
+
+.card-text {
+    font-size: 0.9em;
+    line-height: 1.5em;
+    padding: 0 5px 5px 5px;
+}

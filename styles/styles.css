@@ -1,5 +1,5 @@
 /* Main Content */
-
+/*
 body {
   font-family: 'Roboto', sans-serif;
   background: #B3C0CF;
@@ -39,11 +39,11 @@ body {
   text-align: center;
   font-weight: bold;
 
-}
+}*/
 
 
 /*Week 1 Entry*/
-.week-one {
+/*.week-one {
   height: 50vh;
   width: 100%;
   margin: auto;
@@ -68,35 +68,35 @@ body {
 h3 {
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 2em;
-}
+  font-size: 1.75em;
+}*/
 
 /*Week 1 Content*/
 
 /* Fixed header line */
-.one-container {
+/*.one-container {
   display: flex;
   background: #0C273D;
   height: 75px;
-  width: 100%;
+  width: 100%;*/
   /*position: fixed;*/
-  top: 45vh;
-}
+  /*top: 45vh;
+}*/
 
 /* Header icon */
-.logo {
+/*.logo {
   display: flex;
   height: 90px;
   width: 100px;
   background-color: #54D0ED;
   margin-left: 20px;
-}
+}*/
 
 /* Header nav links */
-.one-nav {
-  display: flex;
+/*.one-nav {
+  display: flex;*/
   /*float: right;*/
-  margin-left: auto;
+  /*margin-left: auto;
 }
 
 .one-nav a {
@@ -113,13 +113,13 @@ h3 {
   display: inline-block;
   padding: 30px 5px;
   color: white;
-}
+}*/
 
 /*.hidden {
   display: none;
 }*/
 
-.button-sign-up {
+/*.button-sign-up {
   background: #54D0ED;
   border-radius: 4px;
   margin-bottom: 3px;
@@ -128,11 +128,11 @@ h3 {
 #code-pen {
   margin-top: 2em;
   justify-content: center;
-}
+}*/
 
 
 /* media queries */
-@media screen and (max-width: 360px) {
+/*@media screen and (max-width: 360px) {
   .header-week-one {
     text-align: center;
   }
@@ -151,10 +151,10 @@ h3 {
   .hidden {
     display: block;
   }
-}
+}*/
 
 /*Week 2 Entry*/
-.week-two {
+/*.week-two {
   height: 70vh;
   width: 100%;
   margin: auto;
@@ -178,10 +178,10 @@ h3 {
 h3 {
   font-weight: bold;
   text-transform: uppercase;
-}
+}*/
 
 /*Week 2 Content*/
-.cards {
+/*.cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -232,10 +232,10 @@ img {
     font-size: 0.9em;
     line-height: 1.5em;
     padding: 0 5px 5px 5px;
-}
+}*/
 
 /*Week 3 Entry*/
-.week-three {
+/*.week-three {
   height: 50vh;
   width: 100%;
   margin: auto;
@@ -252,14 +252,14 @@ img {
   border-bottom: 2px solid white;
   width: 16vw;
   color: white;
-  font-size: 1em;
+  font-size: 1em;*/
   /*padding-top: 40px;*/
-  padding-bottom: 5px;
+  /*padding-bottom: 5px;
 }
 
 h3 {
   font-weight: bold;
   text-transform: uppercase;
-}
+}*/
 
 /*Week 3 Content*/

@@ -1,0 +1,41 @@
+/* Main Content */
+
+body {
+  font-family: $main-font;
+  background: $bkgd-color-main;
+}
+
+.page-header {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background: $header-color-main;
+  height: 10%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.page-header h1 {
+  display: flex;
+  font-size: 125%;
+  font-weight: 100;
+  color: $color-main-light;
+}
+
+.page-header img {
+  display: flex;
+  float: right;
+  margin-right: 10px;
+  margin-left: 10px;
+  height: 25px;
+  width: 25px;
+}
+
+.memo {
+  margin-top: 15vh;
+  font-size: 125%;
+  text-align: center;
+  font-weight: bold;
+}

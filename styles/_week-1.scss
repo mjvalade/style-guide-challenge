@@ -1,0 +1,110 @@
+/*Week 1 Entry*/
+.week-one {
+  height: 50vh;
+  width: 100%;
+  margin: auto;
+}
+
+.header-week-one {
+  margin-left: 4vw;
+  margin-bottom: 1em;
+}
+
+.date-one {
+  margin-bottom: 20px;
+  text-align: center;
+  border-bottom: 2px solid white;
+  width: 15vw;
+  color: white;
+  font-size: 1em;
+  padding-top: 40px;
+  padding-bottom: 5px;
+}
+
+h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.75em;
+}
+
+/*Week 1 Content*/
+
+/* Fixed header line */
+.one-container {
+  display: flex;
+  background: #0C273D;
+  height: 75px;
+  width: 100%;
+  /*position: fixed;*/
+  top: 45vh;
+}
+
+/* Header icon */
+.logo {
+  display: flex;
+  height: 90px;
+  width: 100px;
+  background-color: #54D0ED;
+  margin-left: 20px;
+}
+
+/* Header nav links */
+.one-nav {
+  display: flex;
+  /*float: right;*/
+  margin-left: auto;
+}
+
+.one-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.one-nav {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.one-nav li {
+  display: inline-block;
+  padding: 30px 5px;
+  color: white;
+}
+
+/*.hidden {
+  display: none;
+}*/
+
+.button-sign-up {
+  background: #54D0ED;
+  border-radius: 4px;
+  margin-bottom: 3px;
+}
+
+#code-pen {
+  margin-top: 2em;
+  justify-content: center;
+}
+
+
+/* media queries */
+@media screen and (max-width: 360px) {
+  .header-week-one {
+    text-align: center;
+  }
+
+  .one-container {
+    height: 40vh;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20vw;
+    text-align: center;
+  }
+
+  .hidden {
+    display: block;
+  }
+}
