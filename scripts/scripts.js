@@ -1,1 +1,5 @@
-// var $ = require('./jquery');
+var $ = require('./jquery');
+
+// $('.tab-link').on('click', function () {
+//
+// })

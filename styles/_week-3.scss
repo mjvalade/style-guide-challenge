@@ -27,3 +27,30 @@ h3 {
 }
 
 /*Week 3 Content*/
+
+.tab-header {
+  list-style: none;
+}
+
+.tab-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: $color-main-dark;
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  border-top: 1px solid $header-color-main;
+}
+
+.tab-link:hover {
+  color: blue;
+}
+
+.tab-content {
+  display: none;
+  width: 100%;
+}
+
+.tab-text {
+
+}
