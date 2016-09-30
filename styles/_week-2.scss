@@ -1,9 +1,9 @@
 
 /*Week 2 Entry*/
 .week-two {
-  width: 100%;
   margin: auto;
   margin-top: 35vh;
+  width: 100%;
 }
 
 .header-week-two {
@@ -12,13 +12,13 @@
 }
 
 .date-two {
-  margin-bottom: 20px;
-  text-align: center;
   border-bottom: 2px solid $color-main-light;
-  width: 15vw;
   color: $color-main-light;
   font-size: 1em;
+  margin-bottom: 20px;
+  text-align: center;
   padding-bottom: 5px;
+  width: 15vw;
 }
 
 h3 {
@@ -38,8 +38,8 @@ h3 {
 .card {
   display: flex;
   flex-direction: column;
-  border: 1px solid $highlight-color-two;
   background-color: $color-main-light;
+  border: 1px solid $highlight-color-two;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   height: 300px;
   width: 350px;
@@ -57,17 +57,18 @@ img {
 }
 
 .card-title {
-  line-height: 1.5em;
   font-size: 125%;
-  text-align: left;
-  padding-left: 5px;
+  line-height: 1.5em;
   margin-top: 5px;
+  padding-left: 5px;
+  text-align: left;
 }
 
 .card-link {
-  text-decoration: none;
-  font-weight: bold;
   color: black;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
   &:hover {
     color: blue;
   }
@@ -80,10 +81,10 @@ img {
 }
 
 .code-pen-two {
-  width: 80%;
   justify-content: center;
+  margin: auto;
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
-  margin: auto;
+  width: 80%;
 }

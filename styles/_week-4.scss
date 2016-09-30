@@ -3,7 +3,7 @@
   height: 50vh;
   width: 100%;
   margin: auto;
-  margin-top: 20vh;
+  margin-top: 8vh;
 }
 
 .header-week-four {
@@ -12,24 +12,23 @@
 }
 
 .date-four {
-  margin-bottom: 20px;
-  text-align: center;
   border-bottom: 2px solid $color-main-light;
-  width: 16vw;
   color: $color-main-light;
   font-size: 1em;
-  /*padding-top: 40px;*/
+  margin-bottom: 20px;
   padding-bottom: 5px;
+  text-align: center;
+  width: 16vw;
 }
 
 h3 {
-  font-weight: bold;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 /*Week 4 Content*/
 .four--footer {
-  background: #0C273D;
+  background: $bkgd-color-dark;
   padding-top: 10px;
   padding-bottom: 20px;
 }
@@ -46,17 +45,17 @@ h3 {
 .columns {
   display: flex;
   flex-wrap: wrap;
-  transition: 1s;
   justify-content: center;
+  transition: 1s;
 }
 
 .each-column {
+  color: white;
   flex-basis: 13em;
   flex-shrink: 0;
   font-size: 1.5em;
   padding-top: 60px;
   text-align: center;
-  color: white;
   @media screen and (min-width: 643px) {
     padding-left: 10px;
     padding-top: 10px;
@@ -84,10 +83,10 @@ h3 {
 }
 
 .code-pen-four {
-  width: 80%;
   justify-content: center;
+  margin: auto;
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
-  margin: auto;
+  width: 80%;
 }

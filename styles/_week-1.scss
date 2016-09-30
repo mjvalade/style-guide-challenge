@@ -11,20 +11,20 @@
 }
 
 .date-one {
+  color: white;
+  border-bottom: 2px solid white;
+  font-size: 1em;
   margin-bottom: 20px;
   text-align: center;
-  border-bottom: 2px solid white;
-  width: 15vw;
-  color: white;
-  font-size: 1em;
   padding-top: 40px;
   padding-bottom: 5px;
+  width: 15vw;
 }
 
 h3 {
+  font-size: 1.75em;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 1.75em;
 }
 
 /*Week 1 Content*/
@@ -33,7 +33,7 @@ h3 {
 .one-container {
   align-items: center;
   display: flex;
-  background: #0C273D;
+  background: $bkgd-color-dark;
   height: 75px;
   width: 100%;
   top: 45vh;
@@ -42,9 +42,9 @@ h3 {
 /* Header icon */
 .logo {
   display: flex;
+  background-color: #54D0ED;
   height: 90px;
   width: 100px;
-  background-color: #54D0ED;
   margin-left: 20px;
   margin-top: 15px;
 }
@@ -57,11 +57,11 @@ h3 {
   cursor: pointer;
   font-size: 18px;
   height: 40px;
-  width: 80px;
   margin-left: 20px;
+  width: 80px;
   &:hover {
     background-color: white;
-    color: #0C273D;
+    color: $bkgd-color-dark;
   }
 
 }
@@ -73,28 +73,28 @@ h3 {
 }
 
 .nav-list {
-	list-style: none;
 	position: relative;
   float: left;
+  background-color: $bkgd-color-dark;
+  list-style: none;
   overflow: hidden;
-  background-color: #0C273D;
 }
 
 .nav-list a {
   display: inline-block;
   color: white;
+  padding:0 15px;
   text-align: center;
   text-decoration: none;
   transition: 0.3s;
-  padding:0 15px;
   &:hover {
-    color: #54D0ED;
+    color: $highlight-color;
   }
 }
 
 .list-items {
+  float: left;
   position: relative;
-	float: left;
 }
 
 .icon {
@@ -106,12 +106,12 @@ h3 {
     display: none;
   }
   .nav-list li.icon {
-    float: right;
     display: inline-block;
+    float: right;
   }
   .nav-list.responsive {
-    position: relative;
     margin-top: 125px;
+    position: relative;
   }
   .nav-list.responsive li.icon {
     position: absolute;
@@ -119,29 +119,29 @@ h3 {
     top: 0;
   }
   .nav-list.responsive li {
-    float: none;
     display: inline;
+    float: none;
   }
   .nav-list.responsive li a {
     display: block;
-    text-align: left;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 20px;
+    text-align: left;
   }
 }
 
 .code-pen-one {
-  width: 80%;
   justify-content: center;
+  margin: auto;
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
-  margin: auto;
+  width: 80%;
 }
 
 .divider {
-   border: 1px solid #0C273D;
+   border: 1px solid $bkgd-color-dark;
    margin: 0 auto;
    width: 80%;
  }

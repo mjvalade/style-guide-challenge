@@ -1,9 +1,8 @@
 /*Week 3 Entry*/
 .week-three {
-  // height: 50vh;
-  width: 100%;
   margin: auto;
-  margin-top: 20vh;
+  margin-top: 8vh;
+  width: 100%;
 }
 
 .header-week-three {
@@ -12,14 +11,13 @@
 }
 
 .date-three {
-  margin-bottom: 20px;
-  text-align: center;
   border-bottom: 2px solid $color-main-light;
-  width: 16vw;
   color: $color-main-light;
   font-size: 1em;
-  /*padding-top: 40px;*/
+  margin-bottom: 20px;
   padding-bottom: 5px;
+  text-align: center;
+  width: 16vw;
 }
 
 h3 {
@@ -40,61 +38,62 @@ h3 {
 
 .tab-link {
   display: block;
-  padding: 10px 15px;
   background: #ccc;
-  border-bottom: 1px solid #0C273D;
-  text-decoration: none;
   color: #000;
+  cursor: pointer;
+  border-bottom: 1px solid $bkgd-color-dark;
+  padding: 10px 15px;
+  text-decoration: none;
   &:hover {
-    background: #54D0ED;
+    background: $highlight-color;
     color: #F2F2F2;
   }
 }
 
 .active {
-  background: #0C273D;
+  background: $bkgd-color-dark;
   color: #F2F2F2;
 }
 
 .tab-content {
+  background: white;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   display: none;
   float: left;
-  background: white;
   overflow: hidden;
   padding: 1% 3% 3% 3%;
 }
 
 #tab-nav ul li a {
-    padding: 10px 25px;
     border-bottom: 1px dotted #ccc;
+    padding: 10px 25px;
 }
 
 @media screen and (min-width: 600px) {
     #tab-nav {
-      width: 80%;
-      position: relative;
       border: none;
+      position: relative;
+      width: 80%;
     }
     .tab-header {
       display: inline;
     }
     .tab-link {
-      display: inline-block;
       border: none;
+      display: inline-block;
     }
     .tab-content {
-      position: absolute;
-      padding: 1%;
       left: 0;
+      padding: 1%;
+      position: absolute;
     }
 }
 
 .code-pen-three {
-  width: 80%;
   justify-content: center;
+  margin: auto;
   padding-top: 50px;
   padding-bottom: 30px;
   text-align: center;
-  margin: auto;
+  width: 80%;
 }
