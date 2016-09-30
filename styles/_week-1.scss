@@ -31,11 +31,11 @@ h3 {
 
 /* Fixed header line */
 .one-container {
+  align-items: center;
   display: flex;
   background: #0C273D;
   height: 75px;
   width: 100%;
-  /*position: fixed;*/
   top: 45vh;
 }
 
@@ -46,65 +46,95 @@ h3 {
   width: 100px;
   background-color: #54D0ED;
   margin-left: 20px;
+  margin-top: 15px;
 }
-
-/* Header nav links */
-.one-nav {
-  display: flex;
-  /*float: right;*/
-  margin-left: auto;
-}
-
-.one-nav a {
-  color: white;
-  text-decoration: none;
-}
-
-.one-nav {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.one-nav li {
-  display: inline-block;
-  padding: 30px 5px;
-  color: white;
-}
-
-/*.hidden {
-  display: none;
-}*/
 
 .button-sign-up {
   background: #54D0ED;
+  border: none;
   border-radius: 4px;
-  margin-bottom: 3px;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+  height: 40px;
+  width: 80px;
+  margin-left: 20px;
+  &:hover {
+    background-color: white;
+    color: #0C273D;
+  }
+
 }
 
-#code-pen {
-  margin-top: 2em;
-  justify-content: center;
+/* Header nav links */
+
+.one-nav {
+  margin-left: auto;
 }
 
+.nav-list {
+	list-style: none;
+	position: relative;
+  float: left;
+  overflow: hidden;
+  background-color: #0C273D;
+}
 
-/* media queries */
-@media screen and (max-width: 360px) {
-  .header-week-one {
-    text-align: center;
+.nav-list a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s;
+  padding:0 15px;
+  &:hover {
+    color: #54D0ED;
   }
+}
 
-  .one-container {
-    height: 40vh;
+.list-items {
+  position: relative;
+	float: left;
+}
+
+.icon {
+  display: none;
+}
+
+@media screen and (max-width: 725px) {
+  .nav-list li:not(:first-child) {
+    display: none;
   }
-
-  ul {
-    display: flex;
-    flex-direction: column;
-    margin-left: 20vw;
-    text-align: center;
+  .nav-list li.icon {
+    float: right;
+    display: inline-block;
   }
-
-  .hidden {
+  .nav-list.responsive {
+    position: relative;
+    margin-top: 125px;
+  }
+  .nav-list.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav-list.responsive li {
+    float: none;
+    display: inline;
+  }
+  .nav-list.responsive li a {
     display: block;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
   }
+}
+
+
+#code-pen-one {
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
 }

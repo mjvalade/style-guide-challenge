@@ -6,7 +6,7 @@
   <link rel="stylesheet" type="text/css" href="styles/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Secular+One" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=true">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -17,6 +17,8 @@
   </header>
 
   <h2 class="memo">Building a Style Guide, one week at a time.</h2>
+  <p class="memo--text">A small library of page components that can be quickly and easily dropped into a project with minimal work to integrate them into a codebase.
+  </p>
 
 <!-- Week 1 -->
   <section class="week-one">
@@ -26,22 +28,25 @@
     </div>
 <!-- Week 1 Content -->
     <section>
-      <header class="one-container">
-        <img class="logo" src="/img/logo.png" alt="Logo" />
+      <article class="one-container">
+        <img class="logo" src="./img/canoes-small.jpeg" alt="Logo" />
+        <button type="submit" class="button-sign-up">Sign Up</button>
 
         <nav class="one-nav">
-          <ul>
-            <li><a href="#about-me">HOME</a></li>
-            <li class="hidden"><a href="#projects">PROJECTS</a></li>
-            <li class="hidden"><a href="#education">EDUCATION</a></li>
-              <!-- <ul class="hidden"> -->
-            <li class="hidden"><a href="#past-life">PAST LIFE</a></li>
-            <li class="hidden"><a href="#footer">CONTACT</a></li>
-            <!-- </ul> -->
-            <li><button type="submit" class="button-sign-up">Sign Up</button></li>
+          <ul class="nav-list" id="navList">
+            <li class="list-items"><a href="#">HOME</a></li>
+            <li class="list-items"><a href="#">PROJECTS</a></li>
+            <li class="list-items"><a href="#">EDUCATION</a></li>
+            <li class="list-items"><a href="#">PAST LIFE</a></li>
+            <li class="list-items"><a href="#">CONTACT</a></li>
+            <li class="icon">
+              <a href="javascript:void(0);" onClick="mobileMenu()">&#9776;</a>
+            </li>
           </ul>
         </nav>
-      </header>
+      </article>
+      <p id="code-pen-one" data-height="231" data-theme-id="0" data-slug-hash="QKrArL" data-default-tab="css" data-user="mjvalade" data-embed-version="2" class="codepen">
+      See the Pen <a href="http://codepen.io/mjvalade/pen/QKrArL/">Responsive Nav Bar</a> by MaryJane Valade (<a href="http://codepen.io/mjvalade">@mjvalade</a>) on <a href="http://codepen.io">CodePen</a>.</p>
     </section>
 
   </section>
@@ -145,41 +150,34 @@
     </div>
 <!-- Week 4 Content -->
     <section class="four--footer">
-        <section id="contact" class="column-right">
-          <h2>CONTACT</h2>
-          <a class="email" href="mailto:mjvalade@gmail.com">mjvalade@gmail.com</a>
-          <br>
-          <a href="http://www.linkedin.com/in/maryjane-valade">
-            <img src="images/linkedin-icon.svg"/></a>
-          <a href="https://github.com/mjvalade">
-            <img src="images/Github-icon.svg"/></a>
-          <a href="https://twitter.com/mjvalade22">
-            <img src="images/twitter-icon.svg"/></a>
-        </section>
-
-        <section id="education" class="column-left">
-            <h2>EDUCATION</h2>
-            <a href="http://www.turing.io">
-              <img class="logo" src="images/turing-clear.png"></a>
-            <a href="http://www.gwu.edu">
-              <img class="logo" src="images/gw.png"></a>
-            <a href="http://www.kzoo.edu">
-              <img class="logo" src="images/kzoo-clear.png"></a>
-        </section>
-
-        <section id="past-life" class="column-middle">
-          <h2>PAST LIFE</h2>
-          <a href="http://www.auroramuseum.org">
-            <img class="logo" src="images/ahm-logo.jpg"></a>
-          <a href="http://www.nbm.org">
-            <img class="logo" src="images/nbm.png"></a>
-        </section>
-
-
+      <img class="footer--logo" src="./img/canoes-small.jpeg" alt="Logo" />
+      <div class="columns">
+        <ul class="each-column"><h2>Follow Us</h2>
+          <li><a href="#">linkedIn</a></li>
+          <li><a href="#">GitHub</a></li>
+          <li><a href="#">Twitter</a></li>
+        </ul>
+        <ul class="each-column"><h2>Content</h2>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Products</a></li>
+        </ul>
+        <ul class="each-column"><h2>Legal</h2>
+          <li><a href="#">Terms and Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+        <br>
+        <p class="copyright">
+          Disclaimer area lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, nostrum repudiandae saepe.
+        </p>
+      </div>
     </section>
+    <p id="code-pen-four" data-height="231" data-theme-id="0" data-slug-hash="QKrArL" data-default-tab="css" data-user="mjvalade" data-embed-version="2" class="codepen">
+    See the Pen <a href="http://codepen.io/mjvalade/pen/QKrArL/">Responsive Nav Bar</a> by MaryJane Valade (<a href="http://codepen.io/mjvalade">@mjvalade</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 
 
   <script src="scripts/jquery.js"></script>
   <script src="scripts/scripts.js"></script>
+  <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
 </body>
 </html>

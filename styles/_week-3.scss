@@ -40,10 +40,9 @@ h3 {
   flex-direction: row;
   width: 20%;
   border-top: 1px solid $header-color-main;
-}
-
-.tab-link:hover {
-  color: blue;
+  &:hover {
+    color: blue;
+  }
 }
 
 .tab-content {

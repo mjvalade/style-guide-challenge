@@ -28,50 +28,62 @@ h3 {
 
 /*Week 4 Content*/
 .four--footer {
-  /*column-count: 3;
-  column-width: 200px;*/
-  /*border-top: 2px solid #0C273D;*/
-  background: #BDBDBD;
-  height: 25%;
-  /*padding-top: 10px;*/
-  padding-bottom: 10px;
+  background: #0C273D;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.footer--logo {
+  display: flex;
+  height: 90px;
+  width: 100px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.columns {
   display: flex;
   flex-wrap: wrap;
-  align-content: flex-start;
   transition: 1s;
+  justify-content: center;
 }
 
-footer img {
-  display: inline-flex;
-  flex-direction: row;
-  height: 30px;
-  width: 30px;
-  padding-top: 5px;
-}
-
-#education {
-  flex: 2 1 30%;
-  /*border: 1px solid black;*/
-  padding-top: 10px;
-  padding-left: 10px;
-}
-
-#past-life {
-  flex: 1 1 30%;
-  /*border: 1px solid black;*/
-  padding-top: 10px;
-  padding-left: 10px;
-}
-
-#contact {
-  flex: 1 1 30%;
-  /*border: 1px solid black;*/
-  padding-top: 10px;
-  padding-left: 10px;
-}
-
-@media screen and (min-width: 400px) {
-   article {
-    width: 33.3333%;
+.each-column {
+  flex-basis: 13em;
+  flex-shrink: 0;
+  font-size: 1.5em;
+  padding-top: 60px;
+  text-align: center;
+  color: white;
+  @media screen and (min-width: 643px) {
+    padding-left: 10px;
+    padding-top: 10px;
   }
+}
+
+.each-column li {
+  line-height: 1.5em;
+  list-style: none;
+  text-align: center;
+  a {
+    color: #B3C0CF;
+    font-size: .75em;
+    text-decoration: none;
+  }
+}
+
+.copyright {
+  color: #B3C0CF;
+  padding-top: 20px;
+  text-align: center;
+  @media screen and (min-width: 643px) {
+    padding-top: 30px;
+  }
+}
+
+#code-pen-four {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
 }
