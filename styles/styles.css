@@ -264,9 +264,8 @@ img {
   text-decoration: none;
   font-weight: bold;
   color: black; }
-
-.card-link:hover {
-  color: blue; }
+  .card-link:hover {
+    color: blue; }
 
 .card-text {
   font-size: 0.9em;
